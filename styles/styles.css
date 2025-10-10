@@ -27,7 +27,7 @@ body {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
 }
 
 .logo {
@@ -58,4 +58,30 @@ body {
     outline: none;
     font-size: 14px;
     color: #6B7280;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.link {
+    font-size: 15px;
+    color: #374151;
+    font-weight: 600;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.actions .profile-pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
 }
